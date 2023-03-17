@@ -44,6 +44,7 @@
 
 html * {
 	font-family: Roboto;
+	
 }
 
 a {
@@ -56,27 +57,47 @@ a:visited {
 
 a:hover {
 	color: whitesmoke;
-} 
+}
 
 footer {
-	background-color: #1F2937;
+	background-color: #1f2937;
 }
 
 h1 {
 	font-size: 48px;
-	color: #F9FAF8;
+	color: #f9faf8;
+}
+
+header,
+a {
+font-size: 24px;
+color: #E5E7EB;
 }
 
 header {
 	font-size: 18px;
-	color: #E5E7EB;
+	color: #e5e7eb;
 }
 
 header {
-	background-color: #1F2937;
+	background-color: #1f2937;
 }
 
-header, p {
+header,
+p {
 	font-size: 24px;
-	color: #F9FAF8;
+	color: #f9faf8;
+	font-style: bold;
+}
+
+footer,
+dropdown2 {
+	background-color: #3882f6;
+}
+
+blockquote {
+	color: #1f2937;
+	background-color: #e5e7eb;
+	font-size: 36px;
+	font-style: italic;
 }
