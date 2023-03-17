@@ -1,51 +1,48 @@
 /* dropdown button */
 .dropbtn {
-    background-color: gray;
-    color: white;
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-    margin-left: auto;
-    text-align: left;
+	background-color: gray;
+	color: white;
+	font-size: 15px;
+	border: none;
+	cursor: pointer;
+	margin-left: auto;
+	text-align: left;
 }
 /* div container used for dropdown content position */
 .dropdown {
-    position: relative;
-    text-align: left;
+	position: relative;
+	text-align: left;
 }
 /* hidden dropdown content*/
 .dropdown-content {
-    position: absolute;
-    background-color: darkgray;
-    min-width: 100px;
+	position: absolute;
+	background-color: darkgray;
+	min-width: 100px;
 
-    z-index: 1;
-    display: none;
-
+	z-index: 1;
+	display: none;
 }
 /* links inside dropdown */
 .dropdown-content a {
-    color: black;
-    text-decoration: none;
-    display: block;
-
+	color: black;
+	text-decoration: none;
+	display: block;
 }
 
 /* color of dropdown links (hover)*/
 .dropdown-content a:hover {
-    background-color: blue;
+	background-color: blue;
 }
 /* show the dropdown on hover*/
 .dropdown:hover .dropdown-content {
-    display: block;
+	display: block;
 }
 
-.dropdown:hover .dropbtn{
-    background-color: rgb(2, 5, 2);
+.dropdown:hover .dropbtn {
+	background-color: rgb(2, 5, 2);
 }
 
-html *
-{
+html * {
 	font-family: Roboto;
 }
 
@@ -59,5 +56,27 @@ a:visited {
 
 a:hover {
 	color: whitesmoke;
+} 
+
+footer {
+	background-color: #1F2937;
 }
 
+h1 {
+	font-size: 48px;
+	color: #F9FAF8;
+}
+
+header {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+header {
+	background-color: #1F2937;
+}
+
+header, p {
+	font-size: 24px;
+	color: #F9FAF8;
+}
